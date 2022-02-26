@@ -1,14 +1,10 @@
 const about = {
-    about: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum 
-    has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a 
-    galley of type and scrambled it to make a type specimen book. Lorem Ipsum is simply dummy text 
-    of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text 
-    ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a 
-    type specimen book.`,
-    about1: `A FUDGE LOVERS é uma empresa artesanal familiar. Estamos trazendo a vocês deliciosos 
-    Fudges frescos produzidos com ingredientes de qualidade. Nossa missão é lhe proporcionar uma 
-    experiência maravilhosa, tanto nos sabores quanto no sorriso, pois não conseguimos imaginar 
-    nenhuma ocasião em que uma mordida em um Fudge delicioso não seja a resposta.`,
+    about1: `A FUDGE LOVERS é uma empresa artesanal familiar.`,
+    about2: `Estamos trazendo a vocês deliciosos Fudges frescos produzidos com ingredientes 
+    de qualidade.`,
+    about3: `Nossa missão é lhe proporcionar uma experiência maravilhosa, tanto no sabor
+    quanto no sorriso, pois não conseguimos imaginar nenhuma ocasião em que uma mordida em um 
+    Fudge delicioso não seja a resposta.`
 }
 
 const email = {
@@ -29,7 +25,10 @@ const infos = {
 }
 
 const kyte = {
-    link: 'https://fudgelovers.kyte.site/'
+    link: 'https://fudgelovers.kyte.site/',
+    linkFudges: 'https://fudgelovers.kyte.site/caixas-3-unidades',
+    linkBoxes: 'https://fudgelovers.kyte.site/caixas-premium',
+    linkPies: 'https://fudgelovers.kyte.site/tortas-de-sorvete'
 }
 
 const slogans = {

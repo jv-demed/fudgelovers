@@ -9,6 +9,10 @@ const AboutBoxStyled = styled.div`
     display: flex;
     gap: 20px;
     padding: 20px;
+    .spans{
+        display: flex;
+        flex-direction: column;
+    }
     img{
         width: 200px;
     }
@@ -23,7 +27,11 @@ const AboutBoxStyled = styled.div`
 export default function AboutBox(){
     return(
         <AboutBoxStyled>
-            <span>{about.about}</span>
+            <div className='spans'>
+                <span>{about.about1}</span><br/>
+                <span>{about.about2}</span><br/>
+                <span>{about.about3}</span>
+            </div>
             <img src={logos.logoFull} />
         </AboutBoxStyled>
     )
