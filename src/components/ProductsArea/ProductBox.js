@@ -2,7 +2,7 @@ import styled from 'styled-components';
 import Btn from '../Globals/Btn';
 
 const Box = styled.div`
-    background-color: rgba(0,0,0,0.2);
+    background-color: rgba(0,0,0,0.3);
     border-radius: 5px;
     display: flex;
     img{
@@ -15,9 +15,11 @@ const Box = styled.div`
         flex-direction: column;
         justify-content: space-between;
         padding: 0 20px 15px;
+        width: 100%;
         .btnBox{
             display: flex;
             justify-content: right;
+            margin-top: 15px;
         }
     }
     @media(max-width: 650px){
@@ -25,6 +27,11 @@ const Box = styled.div`
         flex-direction: column;
         img{
             display: none;
+        }
+        .content{
+            .btnBox{
+                justify-content: center;
+            }
         }
     }
 `

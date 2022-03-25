@@ -31,11 +31,27 @@ const kyte = {
     linkPies: 'https://fudgelovers.kyte.site/tortas-de-sorvete'
 }
 
+const products = {
+    product1: 'Fudges',
+    product1Desc: `Feitos à base de chocolate, leite condensado e creme de leite, os Fudges são
+                    ideais para qualquer momento.`,
+    product1Img: 'https://i.imgur.com/PW1HkWv.jpg',
+    product2: 'Caixas Presente',
+    product2Desc: `Caixinhas pensadas e montadas com muito carinho para fazer aquela surpresa especial.`,
+    product2Img: 'https://i.imgur.com/fr1n69V.jpg',
+    product3: 'Tortas de Sorvete',
+    product3Desc: `Com cobertura de Fudge cremoso, deixe qualquer situação muito mais incrível.`,
+    product3Img: 'https://i.imgur.com/W3Rruwm.jpg',
+}
+
 const slogans = {
     title: 'Fudges deliciosos para você se apaixonar',
-    subtitle: `Lorem Ipsum is simply dummy text of the printing 
-    and typesetting industry. Lorem Ipsum has been the 
-    industry's standard dummy text ever since the 1500s.`
+    // subtitle: `Lorem Ipsum is simply dummy text of the printing 
+    // and typesetting industry. Lorem Ipsum has been the 
+    // industry's standard dummy text ever since the 1500s.`,
+    subtitle: `Experimente e se apaixone por todos os 
+    sabores destes deliciosos quadradinhos. Torne-se 
+    você também em um Fudge Lover!`
 }
 
 const socialMedias = {
@@ -51,4 +67,4 @@ const whatsapp = {
     whatsappLink: 'https://api.whatsapp.com/send?phone=',
 }
 
-export { about, email, emailJsData, infos, kyte, slogans, socialMedias, whatsapp };
+export { about, email, emailJsData, infos, kyte, products, slogans, socialMedias, whatsapp };

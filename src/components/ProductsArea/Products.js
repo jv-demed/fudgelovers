@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 import ProductBox from './ProductBox';
-import { kyte } from '../../data/infos';
+import { kyte, products } from '../../data/infos';
 
 const ProductsStyled = styled.div`
     display: flex;
@@ -12,22 +12,21 @@ export default function Welcome(){
     return(
         <ProductsStyled>
             <ProductBox 
-                img='https://i.imgur.com/PW1HkWv.jpg' 
-                title='Fudges'
-                desc='lorem isds sdsjdiso sjdiaojd ijsdijsij isjdioajsd jsdiosaj'
+                img={products.product1Img} 
+                title={products.product1}
+                desc={products.product1Desc}
                 link={kyte.linkFudges}
             />
             <ProductBox 
-                className='alternative'
-                img='https://i.imgur.com/fr1n69V.jpg' 
-                title='Caixas Presente'
-                desc='lorem isds sdsjdiso sjdiaojd ijsdijsij isjdioajsd jsdiosaj'
+                img={products.product2Img} 
+                title={products.product2}
+                desc={products.product2Desc}
                 link={kyte.linkBoxes}
             />
             <ProductBox 
-                img='https://i.imgur.com/W3Rruwm.jpg' 
-                title='Tortas de Sorvete'
-                desc='lorem isds sdsjdiso sjdiaojd ijsdijsij isjdioajsd jsdiosaj'
+                img={products.product3Img} 
+                title={products.product3}
+                desc={products.product3Desc}
                 link={kyte.linkPies}
             />
         </ProductsStyled>
